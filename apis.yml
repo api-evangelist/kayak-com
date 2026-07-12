@@ -45,6 +45,12 @@ modified: '2026-05-25'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: TrustCenter
+    url: security/kayak-com-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/kayak-com-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/kayak-com-domain-security.yml
   - type: Website
     url: https://www.kayak.com
   - type: Affiliates
@@ -81,6 +87,8 @@ common:
     url: https://www.instagram.com/kayak
   - type: YouTube
     url: https://www.youtube.com/user/KAYAK
+  - url: https://www.kayak.com/news/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

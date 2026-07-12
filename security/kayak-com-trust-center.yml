@@ -1,0 +1,16 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://www.kayak.com/c/security/
+url: https://www.kayak.com/c/security/
+certifications:
+- SOC 2
+- PCI DSS
+- GDPR
+evidence:
+- source: https://www.kayak.com/c/security/
+  keywords:
+  - soc 2
+  - soc2
+  - pci dss
+  - gdpr
